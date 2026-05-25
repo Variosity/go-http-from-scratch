@@ -24,7 +24,7 @@ go run http.go
 
 ## What I learned
 
-1. A method lives on a value: myValue.DoSomething(), a function lives in a package: packageName.DoSomething(myValue), there was a confusion while I was building this because I named my json struct 'json' which caused errors.
+1. A method lives on a value: "myValue.DoSomething()", a function lives in a package: "packageName.DoSomething(myValue)", there was a confusion while I was building this because I named my json struct 'json' which caused errors.
    
 2. http.Error sends an error message and a status code in one call, the return exits the handler function and nothing runs.
 
