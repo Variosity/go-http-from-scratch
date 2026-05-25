@@ -14,7 +14,7 @@ go run http.go
 
 ## How it works
 
-1. net/http.HandleFunc registers the handler functions registers a URL path to a handler function so that when a request hits that path, Go knows which function to call.
+1. net/http.HandleFunc registers a URL path to a handler function so that when a request hits that path, Go knows which function to call.
 
 2. ResponseWriter is used to write a response for when you make a request to the server.
 
